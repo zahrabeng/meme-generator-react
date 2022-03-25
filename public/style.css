@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    
+    color: whitesmoke;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+}
+
+.header-image{
+    height: 65px;
+    margin-right: 6px;
+}
+
+.header-title{
+    margin-right: auto;
+}
