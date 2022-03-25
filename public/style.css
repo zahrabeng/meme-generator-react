@@ -7,6 +7,10 @@ body{
     margin: 0;
 }
 
+main {
+    padding: 36px;
+}
+
 header{
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     display: flex;
@@ -24,4 +28,35 @@ header{
 
 .header-title{
     margin-right: auto;
+}
+
+.new-meme-button{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    grid-column: 1 / -1; 
+    border-radius: 5px;
+    padding: 15px;
+    font-size: large;
+    width: 500px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+}
+
+form{
+
+    align-items: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    
+}
+
+.form-input{
+    border-radius: 5px;
+    border: 1px solid rgb(110, 92, 85);
+    text-indent: 5px;
 }
