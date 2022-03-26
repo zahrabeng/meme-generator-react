@@ -45,7 +45,7 @@ header{
     cursor: pointer;
 }
 
-form{
+.form{
 
     align-items: center;
     margin-top: 20px;
@@ -59,4 +59,5 @@ form{
     border-radius: 5px;
     border: 1px solid rgb(110, 92, 85);
     text-indent: 5px;
+    padding: 10px;
 }
